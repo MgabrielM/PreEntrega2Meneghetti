@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: #fefefe;
+  color: black;
+  min-height: 100%;
+}
+
+.header {
+  width: 100vw;
+  height: 55vh;
+  /* background-color: rgb(255, 239, 196); */
+}
+
+.header-encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px 10%;
+  height: 8vh;
+}
+
+.header-encabezado-logo {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.menu-nav-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.menu-nav-li-item a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.25rem;
+}
+
+.menu-nav-li-item a:hover {
+  color: #ff7f11;
+  border-bottom: 1px solid #ff7f11;
+}
+
+.header-hero {
+  width: 100vw;
+  height: 47vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.header-hero-izquierda {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 45%;
+  color: white;
+}
+
+.hero-izquierda-titulo {
+  font-size: 3rem;
+}
+
+.hero-izquierda-texto {
+  font-size: 1.25rem;
+}
+
+.hero-izquierda-boton {
+  margin-top: 20px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  background-color: goldenrod;
+  font-weight: bold;
+  color: black;
+}
+
+.header-hero-derecha {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  position: block;
+}
+
+/* SECCION UNO */
+.seccion-uno {
+  width: 100%;
+  height: auto;
+}
+
+.seccion-uno-contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+.uno-contenedor-cuadro {
+  width: 90vw;
+  height: 25vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.cuadro-uno-imagen {
+  object-fit: contain;
+  width: 20vw;
+  height: 20vh;
+  /* filter: brightness(1.1);
+    mix-blend-mode: multiply; */
+}
+
+.cuadro-dos-imagen {
+  object-fit: contain;
+  width: 20vw;
+  height: 20vh;
+}
+
+.cuadro-tres-imagen {
+  object-fit: contain;
+  width: 20vw;
+  height: 20vh;
+}
+
+.seccion-uno-contenedor .uno {
+  background-color: #9b9b90;
+  background-color: #14213d;
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+.seccion-uno-contenedor .dos {
+  background-color: #7e7e76;
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+}
+
+.seccion-uno-contenedor .tres {
+  background-color: #626261;
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+/* SECCION DOS */
+.seccion-dos {
+  width: 720px;
+  height: 55vh;
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
+}
+
+#carouselExampleSlidesOnly {
+  width: 2120px;
+}
+
+/* PIE DE PAGINA */
+.header {
+  width: 100vw;
+  height: 55vh;
+  /* background-color: rgb(255, 239, 196); */
+}
+
+.pie {
+  width: 100vw;
+  height: 20vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  bottom: 0;
+}
+
+.pie a {
+  text-decoration: none;
+  color: #9b9b90;
+}
+
+.derecho a:hover {
+  color: white;
+}
+
+.izquierdo a:hover {
+  color: white;
+  /* color: #FF7F11; */
+}
+
+.pie-tarjeta {
+  width: auto;
+  height: auto;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.pie-tarjeta-centro {
+  gap: 30px;
+  background-color: blue;
+}
+
+/* PRODUCTOS */
+.header-productos {
+  width: 100vw;
+  height: 10vh;
+}
+
+.main-productos {
+  margin: 0 5%;
+}
+
+.accordion-button {
+  background-color: black;
+  color: white;
+}
+
+.accordion-tarjeta {
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.accordion-tarjeta-imagen {
+  background-image: url(../img/productos/WhatsApp\ Image\ 2023-12-20\ at\ 19.38.29.jpeg);
+  object-fit: fill;
+  width: auto;
+  height: auto;
+}
+
+.productos-footer {
+  position: relative;
+  bottom: 0;
+}
+
+@media (width <= 750px) {
+  .header-encabezado {
+    flex-direction: column;
+    height: 15vh;
+    margin-top: 0;
+  }
+
+  .seccion-uno {
+    margin-top: 100px;
+  }
+
+  /* PRODUCTOS */
+  .contenedor-productos {
+    padding: 0 5%;
+  }
+}
