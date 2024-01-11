@@ -211,8 +211,7 @@ body {
 }
 
 .productos-footer {
-  position: absolute;
-  bottom: 0;
+  margin-top: 20px;
 }
 
 
@@ -225,11 +224,6 @@ body {
 
 .form-contenedor-contacto{
   gap: 5px;
-}
-
-.productos-footer{
-  margin-top: 10px;
-
 }
 
 /* PAGINA ARMA TU PEDIDO */
@@ -368,7 +362,7 @@ body {
 
   /* PEDIDO */
   .pedido-seccion-uno{
-    margin-top: 40px;
+    margin-top: 50px;
   }
 }
 
@@ -378,14 +372,13 @@ body {
   }
 
   .index-seccion-uno{
-    margin-top: 30px;
+    margin-top: 40px;
   }
   
   .seccion-dos{
     padding: 40px;
   }
 
-  /* PEDIDO */
 
 }
 
@@ -408,8 +401,16 @@ body {
 
   /* PEDIDO */
   .pedido-seccion-uno{
-    padding: 220px 10% 0 10%;
+    padding: 0 10% 0 10%;
   }
+
+  main{
+    margin-top: 270px;
+  }
+/* 
+  .productos-seccion-uno{
+    padding-top: 250px;
+  } */
 
 }
 
@@ -428,10 +429,15 @@ body {
     justify-content: center;
     align-items: center;
   }
-
+/* 
   .pedido-seccion-uno{
     padding-top: 220px;
   }
+
+  .productos-seccion-uno{
+    margin-top:250px
+  } */
+
 }
 
 @media (width <= 300px){
