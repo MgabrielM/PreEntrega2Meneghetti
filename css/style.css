@@ -235,6 +235,7 @@ body {
 /* PAGINA ARMA TU PEDIDO */
   .pedido-seccion-uno{
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       width: 100%;
@@ -245,6 +246,8 @@ body {
     padding: 20px 5% 20px 5%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
     flex-wrap: wrap;
     gap: 20px;
   }
@@ -258,6 +261,7 @@ body {
     border-radius: 10%;
     border: 1px solid;
     width: 23%;
+    background-color: rgba(222, 184, 135, 0.226)
   }
 
   .pedido-seccion-uno-item img{
@@ -317,7 +321,7 @@ body {
     flex-direction: row;
     gap: 60px;
     padding: 20px;
-    width: 100%;
+    width: 80vw;
     border-radius: 0%;
     border-top-left-radius: 20%;
     border-bottom-left-radius: 20%;
@@ -404,7 +408,39 @@ body {
 
   /* PEDIDO */
   .pedido-seccion-uno{
-    margin-top: 240px;
+    padding: 220px 10% 0 10%;
   }
 
 }
+
+
+@media (width <= 600px){
+  .pedido-seccion-uno-item{
+    flex-direction: column;
+    width: 80vw;
+    border-radius: 0;
+    padding: 40px;
+    align-items: center;
+    background-color: darkkhaki;
+  }
+
+  .pedido-seccion-uno-item>div{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pedido-seccion-uno{
+    padding-top: 220px;
+  }
+}
+
+@media (width <= 300px){
+  .pedido-seccion-uno-item>div>p{
+    display: none !important;
+    padding: 0px;
+  }
+
+ }
+
+
+
