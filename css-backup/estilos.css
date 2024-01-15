@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: #fefefe;
+  color: black;
+  min-height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.header-encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px 10%;
+  height: 10vh;
+}
+.header-encabezado .header-encabezado-logo {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.header-encabezado .menu-nav-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style-type: none;
+}
+.header-encabezado .menu-nav-ul .menu-nav-li-item a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.25rem;
+}
+.header-encabezado .menu-nav-ul a:hover {
+  color: #ff7f11;
+  border-bottom: 1px solid #ff7f11;
+}
+
+.carousel-inner {
+  width: 100vw;
+  height: 450px;
+}
+.carousel-inner .carousel-item img {
+  width: 100%;
+  height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(125%);
+  -o-object-fit: center;
+     object-fit: center;
+}/*# sourceMappingURL=estilos.css.map */
