@@ -277,7 +277,7 @@ a{
 
 .contenedor-seccion-tres{
   width: 600px;
-  height: 400px;
+  height: 500px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -286,7 +286,7 @@ a{
     "per per ar"
     "frag jab ar"
     "cer cer cer";
-    gap: 10pxgit ;
+    gap: 10px ;
   }
 
 
