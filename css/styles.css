@@ -189,6 +189,8 @@ a{
 .productos-seccion-uno{
   width: 100vw;
   height: auto;
+  min-height: 700px;
+  max-height: auto;
   margin-top: 50px;
 }
 
@@ -218,6 +220,77 @@ a{
 .productos-footer {
   margin-top: 20px;
 }
+
+.seccion-tres{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  
+}
+
+.perfumes{
+  grid-area: per;
+  background-color: #9b9b90;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.velas{
+  grid-area: ve;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aromatizantes{
+  grid-area: ar;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fragancias{
+  grid-area: frag;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jabones{
+  grid-area: jab;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ceras{
+  grid-area: cer;
+  background-color: khaki;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contenedor-seccion-tres{
+  width: 600px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+    "per per ve"
+    "per per ar"
+    "frag jab ar"
+    "cer cer cer";
+    gap: 10pxgit ;
+  }
+
+
+
 
 
 /* PAGINA CONTACTO */
